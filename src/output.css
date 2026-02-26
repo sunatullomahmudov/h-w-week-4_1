@@ -651,6 +651,11 @@
       align-items: center;
     }
   }
+  .max-md\:justify-between {
+    @media (width < 48rem) {
+      justify-content: space-between;
+    }
+  }
   .max-md\:justify-start {
     @media (width < 48rem) {
       justify-content: flex-start;
@@ -664,6 +669,26 @@
   .max-md\:gap-\[20px\] {
     @media (width < 48rem) {
       gap: 20px;
+    }
+  }
+  .max-md\:gap-\[70px\] {
+    @media (width < 48rem) {
+      gap: 70px;
+    }
+  }
+  .max-md\:gap-\[100px\] {
+    @media (width < 48rem) {
+      gap: 100px;
+    }
+  }
+  .max-md\:gap-\[110px\] {
+    @media (width < 48rem) {
+      gap: 110px;
+    }
+  }
+  .max-md\:gap-\[130px\] {
+    @media (width < 48rem) {
+      gap: 130px;
     }
   }
   .max-md\:rounded-\[5px\] {
