@@ -175,6 +175,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-\[5px\] {
+    margin-top: 5px;
+  }
   .mt-\[10px\] {
     margin-top: 10px;
   }
@@ -217,8 +220,17 @@
   .h-\[410px\] {
     height: 410px;
   }
+  .w-\[2px\] {
+    width: 2px;
+  }
   .w-\[10px\] {
     width: 10px;
+  }
+  .w-\[23px\] {
+    width: 23px;
+  }
+  .w-\[25px\] {
+    width: 25px;
   }
   .w-\[33\] {
     width: 33;
@@ -235,8 +247,56 @@
   .w-\[160px\] {
     width: 160px;
   }
+  .w-\[190px\] {
+    width: 190px;
+  }
   .w-\[200px\] {
     width: 200px;
+  }
+  .w-\[234px\] {
+    width: 234px;
+  }
+  .w-\[244px\] {
+    width: 244px;
+  }
+  .w-\[249px\] {
+    width: 249px;
+  }
+  .w-\[252px\] {
+    width: 252px;
+  }
+  .w-\[253px\] {
+    width: 253px;
+  }
+  .w-\[254px\] {
+    width: 254px;
+  }
+  .w-\[264px\] {
+    width: 264px;
+  }
+  .w-\[273px\] {
+    width: 273px;
+  }
+  .w-\[274px\] {
+    width: 274px;
+  }
+  .w-\[275px\] {
+    width: 275px;
+  }
+  .w-\[277px\] {
+    width: 277px;
+  }
+  .w-\[283px\] {
+    width: 283px;
+  }
+  .w-\[293px\] {
+    width: 293px;
+  }
+  .w-\[303\] {
+    width: 303;
+  }
+  .w-\[303px\] {
+    width: 303px;
   }
   .w-\[327px\] {
     width: 327px;
@@ -279,6 +339,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-\[5px\] {
+    gap: 5px;
   }
   .gap-\[10px\] {
     gap: 10px;
@@ -477,6 +540,11 @@
       margin-top: 0px;
     }
   }
+  .max-md\:mt-\[20px\] {
+    @media (width < 48rem) {
+      margin-top: 20px;
+    }
+  }
   .max-md\:mt-\[30px\] {
     @media (width < 48rem) {
       margin-top: 30px;
@@ -562,6 +630,16 @@
       width: 350px;
     }
   }
+  .max-md\:w-\[353\] {
+    @media (width < 48rem) {
+      width: 353;
+    }
+  }
+  .max-md\:w-\[353px\] {
+    @media (width < 48rem) {
+      width: 353px;
+    }
+  }
   .max-md\:flex-col {
     @media (width < 48rem) {
       flex-direction: column;
@@ -585,6 +663,16 @@
   .max-md\:gap-\[20px\] {
     @media (width < 48rem) {
       gap: 20px;
+    }
+  }
+  .max-md\:p-\[15px\] {
+    @media (width < 48rem) {
+      padding: 15px;
+    }
+  }
+  .max-md\:p-\[20px\] {
+    @media (width < 48rem) {
+      padding: 20px;
     }
   }
   .max-md\:text-center {
