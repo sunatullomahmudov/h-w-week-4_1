@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-green-400: oklch(79.2% 0.209 151.711);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-400: oklch(70.7% 0.022 261.325);
@@ -168,6 +169,9 @@
   }
 }
 @layer utilities {
+  .clear-start {
+    clear: inline-start;
+  }
   .m-auto {
     margin: auto;
   }
@@ -189,6 +193,15 @@
   .mt-\[150px\] {
     margin-top: 150px;
   }
+  .ml-\[10\%\] {
+    margin-left: 10%;
+  }
+  .ml-\[10\] {
+    margin-left: 10;
+  }
+  .ml-\[15\%\] {
+    margin-left: 15%;
+  }
   .flex {
     display: flex;
   }
@@ -204,8 +217,17 @@
   .h-\[410px\] {
     height: 410px;
   }
+  .w-\[10px\] {
+    width: 10px;
+  }
+  .w-\[33\] {
+    width: 33;
+  }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[120px\] {
+    width: 120px;
   }
   .w-\[130px\] {
     width: 130px;
@@ -215,6 +237,12 @@
   }
   .w-\[200px\] {
     width: 200px;
+  }
+  .w-\[327px\] {
+    width: 327px;
+  }
+  .w-\[337px\] {
+    width: 337px;
   }
   .w-\[350px\] {
     width: 350px;
@@ -227,6 +255,9 @@
   }
   .w-\[483px\] {
     width: 483px;
+  }
+  .w-\[522px\] {
+    width: 522px;
   }
   .w-\[631px\] {
     width: 631px;
@@ -415,6 +446,13 @@
       }
     }
   }
+  .hover\:bg-green-400 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-green-400);
+      }
+    }
+  }
   .hover\:text-blue-600 {
     &:hover {
       @media (hover: hover) {
@@ -432,6 +470,11 @@
   .max-md\:m-auto {
     @media (width < 48rem) {
       margin: auto;
+    }
+  }
+  .max-md\:mt-\[0px\] {
+    @media (width < 48rem) {
+      margin-top: 0px;
     }
   }
   .max-md\:mt-\[30px\] {
@@ -532,6 +575,11 @@
   .max-md\:justify-start {
     @media (width < 48rem) {
       justify-content: flex-start;
+    }
+  }
+  .max-md\:gap-\[0px\] {
+    @media (width < 48rem) {
+      gap: 0px;
     }
   }
   .max-md\:gap-\[20px\] {
