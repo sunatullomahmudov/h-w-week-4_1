@@ -198,9 +198,6 @@
   .mb-\[30px\] {
     margin-bottom: 30px;
   }
-  .mb-\[50px\] {
-    margin-bottom: 50px;
-  }
   .mb-\[100px\] {
     margin-bottom: 100px;
   }
@@ -215,9 +212,6 @@
   }
   .hidden {
     display: none;
-  }
-  .table {
-    display: table;
   }
   .h-\[170vh\] {
     height: 170vh;
@@ -273,12 +267,6 @@
   .w-\[700px\] {
     width: 700px;
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
-  }
   .items-center {
     align-items: center;
   }
@@ -306,10 +294,6 @@
   .rounded-\[50px\] {
     border-radius: 50px;
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-\[1px\] {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -317,10 +301,6 @@
   .border-\[2px\] {
     border-style: var(--tw-border-style);
     border-width: 2px;
-  }
-  .border-b {
-    border-bottom-style: var(--tw-border-style);
-    border-bottom-width: 1px;
   }
   .border-b-\[2px\] {
     border-bottom-style: var(--tw-border-style);
@@ -331,9 +311,6 @@
   }
   .border-\[\#cdcdcd\] {
     border-color: #cdcdcd;
-  }
-  .border-\[gray\] {
-    border-color: gray;
   }
   .border-\[solid\] {
     border-color: solid;
@@ -420,12 +397,6 @@
   .text-\[\#30D7BA\] {
     color: #30D7BA;
   }
-  .text-\[\#cdcdcd\] {
-    color: #cdcdcd;
-  }
-  .text-\[gray\] {
-    color: gray;
-  }
   .text-black {
     color: var(--color-black);
   }
@@ -435,17 +406,8 @@
   .text-gray-500 {
     color: var(--color-gray-500);
   }
-  .text-gray-600 {
-    color: var(--color-gray-600);
-  }
-  .text-gray-800 {
-    color: var(--color-gray-800);
-  }
   .text-white {
     color: var(--color-white);
-  }
-  .underline {
-    text-decoration-line: underline;
   }
   .shadow-\[0px_0px_10px_gray\] {
     --tw-shadow: 0px 0px 10px var(--tw-shadow-color, gray);
@@ -458,10 +420,6 @@
   .shadow-\[0px_0px_30px_\#00000036\] {
     --tw-shadow: 0px 0px 30px var(--tw-shadow-color, #00000036);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .hover\:bg-gray-400 {
     &:hover {
@@ -766,11 +724,6 @@ h3 {
   inherits: false;
   initial-value: 0 0 #0000;
 }
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -799,7 +752,6 @@ h3 {
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
-      --tw-outline-style: solid;
     }
   }
 }
